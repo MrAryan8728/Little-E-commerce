@@ -1,0 +1,36 @@
+.Card {
+    cursor: pointer;
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 20px 25px;
+    overflow: hidden;
+    transition: all ease 1s;
+    color: black; /* Default text color */
+    background: white; /* Default background color */
+} 
+
+.Card > div > div {
+    padding: 5px 7px;
+}
+
+.Details {
+    width: 300px;
+    color: black; /* Default text color for details */
+}
+
+.Details > div > h3,
+.Details > div.one-Row > h3 {
+    word-wrap: break-word;
+    overflow-wrap: initial;
+}
+
+.image {
+    border-radius: 0px 0px;
+    height: 200px;
+    width: 300px;
+    transition: all ease 1s;
+}
+
+.image:hover {
+    scale: 1.1;
+}

@@ -1,0 +1,33 @@
+
+.Header-Container{
+    display: flex;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding: 4px;
+    justify-content: space-between;
+}
+
+.Logo-Container>img{
+    width: 80px;
+    height: 80px;
+}
+
+.Item-Container>ul{
+   display: flex;
+   align-items: baseline;
+}
+
+.Item-Container > ul > li {
+    margin: 10px 50px;
+    list-style: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.Item-Container > ul > li > a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+

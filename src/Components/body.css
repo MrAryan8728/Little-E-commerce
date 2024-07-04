@@ -1,0 +1,47 @@
+.Main-Container {
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.Search-Bar {
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    margin: 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Search-Bar > input {
+    height: 50px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.Search-Bar > span {
+    font-size: larger;
+    cursor: pointer;
+}
+
+.Card-Container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.Card-Container a {
+    text-decoration: none; /* This will remove the underline */
+}
+
+.one-Row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Filters > button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
